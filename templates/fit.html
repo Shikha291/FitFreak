@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{%static 'fit.css' %}">
+    <meta charset="UTF-8">
+    <title>FitnFreak</title>
+</head>
+<center>
+<body>
+<form action="{% url 'result' %}">
+    <h2>Enter your weekly workout exercises:</h2><br><br>
+    <p>Exercise 1:</p>
+    <input type="text" name="11"><br><br>
+    <p>Exercise 2:</p>
+    <input type="text" name="12"><br><br>
+    <p>Exercise 3:</p>
+    <input type="text" name="13"><br><br>
+    <p>Exercise 4:</p>
+    <input type="text" name="14"><br><br>
+    <p>Exercise 5:</p>
+    <input type="text" name="15"><br><br>
+    <p>Exercise 6:</p>
+    <input type="text" name="16"><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+    </center>
+</html>
